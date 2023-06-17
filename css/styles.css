@@ -12,6 +12,26 @@ body {
     font-family: "Roboto", serif;
 }
 
+.logo {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+}
+
+.studio {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: #2E2F42;
+
+}
+
+
 .contacts-link .link:hover ,
 .contacts-link .link:focus {
     color: brown;
@@ -21,7 +41,7 @@ body {
     font-weight: 500;
     color: #2E2F42;
     line-height: 24px;
-    
+    letter-spacing: 0.02em;
     }
 
 .contacts {
@@ -62,6 +82,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
@@ -69,6 +90,9 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: #2E2F42;
 }
 
@@ -95,14 +119,18 @@ body {
 .footer-web {
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1/17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #4D5AE5;
 }
 
 .footer-studio {
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #F4F4FD;
 }
 
@@ -115,8 +143,8 @@ footer{
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #F4F4FD
-}
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
 
 
 
