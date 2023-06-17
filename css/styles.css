@@ -1,0 +1,122 @@
+.list {
+ list-style: none;
+}
+.link {
+    flex-direction: none;
+}
+img {
+    display: block;
+}
+
+body {
+    font-family: "Roboto", serif;
+}
+
+.contacts-link .link:hover ,
+.contacts-link .link:focus {
+    color: brown;
+}
+    .nav-list {
+    font-size: 16px;
+    font-weight: 500;
+    color: #2E2F42;
+    line-height: 24px;
+    
+    }
+
+.contacts {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #434455;
+}
+
+.hero-image {
+    background: #2E2F42;
+}
+
+.business-solutions {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    color: #FFFFFF
+}
+
+.btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #4D5AE5;
+
+}
+
+.advantages-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2E2F42;
+}
+
+.advantages-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #434455;
+}
+
+.social-madia {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: #2E2F42;
+}
+
+.our-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: #2E2F42;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2E2F42;
+}
+.speciality{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #434455;
+}
+
+.footer-web {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4D5AE5;
+}
+
+.footer-studio {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F4F4FD;
+}
+
+
+footer{
+    background: #2E2F42;
+}
+
+.footer-page {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F4F4FD
+}
+
+
+
