@@ -203,12 +203,13 @@ text-align: center;
 letter-spacing: 0.04em;
 color:var(--color-button);
 background: #F4F4FD;
+cursor: pointer;
 }
 
 .button:hover,
 .button:focus {
   color:var(--white-color);
-  background-color:var(--color-button);
+  background-color:#404bbf;
 }
 
 
