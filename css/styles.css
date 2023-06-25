@@ -16,10 +16,45 @@ img {
 
 }
 
+
+h1,h2,h3,h4,h5,h6,p {
+  margin: 0px;
+}
+
+ul,ol {
+  margin:0px;
+  padding: 0px;
+}
+
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--secondry-text-color);
   background-color: var(--white-color);
+}
+
+.container {
+border-bottom: 1px solid var(--cornflower, #E7E9FC);
+background: var(--white-color);
+}
+
+.header-container {
+  display: flex;
+  padding: 24px 0;
+}
+
+.header-nav {
+  display: flex;
+  gap: 40px;
+}
+.nav-list {
+  display: flex;
+
+}
+
+.contacts {
+  display: flex;
+
 }
 
 .logo {
@@ -44,6 +79,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
+  padding: 24px;
   color: var(--primary-text-color);
 }
 .nav-link:hover,
@@ -53,6 +89,7 @@ body {
 
 .address {
   font-style: normal;
+   display: flex;
 }
 
 .contacts-link {
