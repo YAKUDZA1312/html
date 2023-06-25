@@ -266,12 +266,19 @@ letter-spacing: 0.04em;
 color:var(--color-button);
 background: #F4F4FD;
 cursor: pointer;
+display: flex;
+justify-content: center; 
+margin-bottom: 72px;
+padding: 12px 24px;
+border: 1px solid #e7e9fc;
+border-radius: 4px;
 }
 
 .button:hover,
 .button:focus {
   color:var(--white-color);
   background-color:#404bbf;
+  border: 1px solid transparent;
 }
 
 
