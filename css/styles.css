@@ -168,14 +168,11 @@ margin: 0 auto;
   
 }
 
-.advantages-content {
-
-}
-
 
 .advantages-company {
   display: flex; 
-   gap: 24px;
+  gap: 24px;
+  width: calc((100% - 72px) /
 }
 
 
