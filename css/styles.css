@@ -47,7 +47,6 @@ margin: 0 auto;
 
 .header-container {
   display: flex; 
-  padding: 24px 0;
 }
 
 .header-nav {
@@ -170,7 +169,7 @@ margin: 0 auto;
 }
 
 .advantages-content {
-  width: calc((100% - 72px) /
+
 }
 
 
