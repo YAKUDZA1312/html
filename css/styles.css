@@ -306,8 +306,8 @@ footer {
 
 .button-content {
   display: flex; 
-   justify-content: center;
-    margin-bottom: 72px;
+  justify-content: center;
+  margin-bottom: 72px;
 }
 
 
@@ -356,11 +356,4 @@ font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
 color: var(--secondry-text-color);
-}
-
-
-
-.hero-image {
-  padding-top: 96px;
-  padding-bottom: 120px; 
 }
