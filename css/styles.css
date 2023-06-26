@@ -155,7 +155,16 @@ margin: 0 auto;
   background-color: var(--color-focus);
 }
 
-
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
 
 .advantages{
   padding: 120px 0;
@@ -172,6 +181,7 @@ margin: 0 auto;
 .advantages-company {
   display: flex; 
   gap: 24px;
+  width: calc((100% - 72px)/4);
 }
 
 
@@ -213,7 +223,7 @@ margin: 0 auto;
 .gadgets-media {
   display: flex;
    gap: 24px; 
-   width: calc((100% - 48px) / 
+   width: calc((100% - 48px)/3);
 }
 
 
