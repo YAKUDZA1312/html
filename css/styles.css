@@ -162,14 +162,19 @@ margin: 0 auto;
   padding: 120px 0;
 }
 
+visibility-none {
+  display: none;
+}
 
 .advantages-head {
   margin-bottom: 8px;
+  
 }
 
 .advantages-company {
   display: flex; 
    gap: 24px;
+   width: calc((100% - 72px)/ 
 }
 
 
@@ -270,14 +275,17 @@ margin: 0 auto;
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
+   display: inline-block;
 }
 
 .footer-studio {
   color: #f4f4fd;
+  
 }
 
 footer {
   background: #2e2f42;
+  display: inline-block;
 }
 
 .footer-page {
@@ -286,6 +294,7 @@ footer {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  margin-bottom: 16px; 
 }
 
 
