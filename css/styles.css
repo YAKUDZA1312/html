@@ -299,14 +299,14 @@ footer {
 }
 
 .main-portfolio {
-  padding-top: 96px;
-  padding-bottom: 120px; 
+ padding: 96px 0 120px 0;
 }
 
 
 .button-content {
   display: flex; 
   justify-content: center;
+   gap: 24px;
   margin-bottom: 72px;
 }
 
@@ -322,9 +322,7 @@ letter-spacing: 0.04em;
 color:var(--color-button);
 background: #F4F4FD;
 cursor: pointer;
-display: flex;
-justify-content: center; 
-margin-bottom: 72px;
+display: flex; 
 padding: 12px 24px;
 border: 1px solid #e7e9fc;
 border-radius: 4px;
