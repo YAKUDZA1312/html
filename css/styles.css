@@ -298,6 +298,17 @@ footer {
   color: #f4f4fd; 
 }
 
+.main-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px; 
+}
+
+
+.button-content {
+  display: flex; 
+   justify-content: center;
+    margin-bottom: 72px;
+}
 
 
 .button {
@@ -345,4 +356,11 @@ font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
 color: var(--secondry-text-color);
+}
+
+
+
+.hero-image {
+  padding-top: 96px;
+  padding-bottom: 120px; 
 }
