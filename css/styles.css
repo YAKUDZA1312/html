@@ -162,19 +162,21 @@ margin: 0 auto;
   padding: 120px 0;
 }
 
-visibility-none {
-  display: none;
-}
+
 
 .advantages-head {
   margin-bottom: 8px;
   
 }
 
+.advantages-content {
+  width: calc((100% - 72px) /
+}
+
+
 .advantages-company {
   display: flex; 
    gap: 24px;
-   width: calc((100% - 72px)/ 
 }
 
 
@@ -183,8 +185,8 @@ visibility-none {
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #2e2f42;
   margin-bottom: 8px;
+  color: #2e2f42;
 }
 
 .advantages-paragraph {
@@ -197,7 +199,7 @@ visibility-none {
 
 
 .gadgets {
-  padding-bottom: 120px; 
+  padding-bottom: 120px 0;
 }
 
 
@@ -216,7 +218,7 @@ visibility-none {
 .gadgets-media {
   display: flex;
    gap: 24px; 
-   width: calc((100% - 48px)/ 
+   width: calc((100% - 48px) / 
 }
 
 
@@ -286,6 +288,7 @@ visibility-none {
 footer {
   background: #2e2f42;
   display: inline-block;
+  margin-bottom: 16px; 
 }
 
 .footer-page {
@@ -293,8 +296,7 @@ footer {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
-  margin-bottom: 16px; 
+  color: #f4f4fd; 
 }
 
 
