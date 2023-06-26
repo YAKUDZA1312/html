@@ -210,7 +210,7 @@ margin: 0 auto;
 .gadgets-media {
   display: flex;
    gap: 24px; 
-   width: calc(100% - 48px) 
+   width: calc((100% - 48px) 
 }
 
 
@@ -235,7 +235,7 @@ margin: 0 auto;
 .teammates {
    display: flex; 
    gap: 24px;
-   width: calc (100% - 72px)
+   width: calc ((100% - 72px)
 }
 
 .item {
