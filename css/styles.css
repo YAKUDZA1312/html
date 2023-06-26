@@ -232,7 +232,7 @@ margin: 0 auto;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--primary-text-color);
-   margin-bottom: 72px; 
+  margin-bottom: 72px; 
 }
 
 .teammates {
@@ -243,6 +243,9 @@ margin: 0 auto;
 
 .item {
   background-color: var(--white-color);
+  display: flex;
+  gap: 24px;
+  width: calc((100% - 72px) / 
 }
 
 .name {
