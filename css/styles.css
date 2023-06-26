@@ -238,14 +238,12 @@ margin: 0 auto;
 .teammates {
    display: flex; 
    gap: 24px;
-   width: calc (100% - 72px)
+  
 }
 
 .item {
   background-color: var(--white-color);
-  display: flex;
-  gap: 24px;
-  width: calc((100% - 72px) / 
+  
 }
 
 .name {
