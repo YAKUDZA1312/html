@@ -162,6 +162,17 @@ margin: 0 auto;
   padding: 120px 0;
 }
 
+
+.advantages-head {
+  margin-bottom: 8px;
+}
+
+.advantages-company {
+  display: flex; 
+   gap: 24px;
+}
+
+
 .advantages-title {
   font-weight: 500;
   font-size: 20px;
@@ -178,6 +189,12 @@ margin: 0 auto;
   color: #434455;
 }
 
+
+.gadgets {
+  padding-bottom: 120px; 
+}
+
+
 .social-madia {
   font-weight: 700;
   font-size: 36px;
@@ -186,10 +203,20 @@ margin: 0 auto;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
+
+
+.gadgets-media {
+  display: flex;
+   gap: 24px; 
+   width: calc(100% - 48px) 
+}
+
 
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .our-team {
@@ -202,6 +229,13 @@ margin: 0 auto;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--primary-text-color);
+   margin-bottom: 72px; 
+}
+
+.teammates {
+   display: flex; 
+   gap: 24px;
+   width: calc (100% - 72px)
 }
 
 .item {
